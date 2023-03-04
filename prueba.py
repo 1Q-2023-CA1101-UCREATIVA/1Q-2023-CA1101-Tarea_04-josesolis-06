@@ -1,18 +1,17 @@
 import math
 
 def puntaje(x, y):
-    r= puntaje(x,y)
+    r = math.sqrt((x)**2+(y)**2)
     if (5 < r <= 10):
-        print("1 punto")
+        return 1
     elif (1 < r <= 5):
-        print("5 puntos")
+        return 5
     elif (r <= 1):
-        print("10 puntos")
+        return 10
     elif(r>=10.1):
-        print("0 puntos")
-r = math.sqrt((x)**2+(y)**2)
+        return 0
 
-puntaje(1,12)
-puntaje(3,6)
-puntaje(2,4)
-puntaje(0.15,0.45)
+print(puntaje(1,12))
+print(puntaje(3,6))
+print(puntaje(2,4))
+print(puntaje(0.15,0.45))
