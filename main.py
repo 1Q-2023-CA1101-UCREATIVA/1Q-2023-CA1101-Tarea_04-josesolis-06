@@ -11,7 +11,7 @@ def puntaje(x, y):
     elif(r>=10.1):
         return 0
 
-print(puntaje(7.1,-7.1))
+print(puntaje(2,7))
 print(puntaje(3,6))
 print(puntaje(2,4))
 print(puntaje(0.15,0.45))
