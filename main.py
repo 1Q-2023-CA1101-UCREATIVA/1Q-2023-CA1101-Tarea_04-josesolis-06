@@ -8,10 +8,10 @@ def puntaje(x, y):
         return 5
     elif (r <= 1):
         return 10
-    elif(r>=10.1):
+    elif(r>10.1):
         return 0
 
-print(puntaje(2,7))
+print(puntaje(7.1, 8))
 print(puntaje(3,6))
 print(puntaje(2,4))
 print(puntaje(0.15,0.45))
